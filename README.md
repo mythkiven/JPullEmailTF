@@ -3,7 +3,7 @@
 
 使用方法
 
-![](https://github.com/mythkiven/JPullEmail/blob/master/emailGIf.gif)
+![](https://github.com/mythkiven/JPullEmailTF/blob/master/emailGIf.gif)
 
 ## 使用默认样式：
 一句代码搞定：
