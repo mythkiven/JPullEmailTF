@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11760" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fPb-if-msZ">
+                                <rect key="frame" x="65" y="163" width="290" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="github.com/mythkiven/JPullEmail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8i-cc-g6Q">
+                                <rect key="frame" x="0.0" y="50" width="375" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邮箱:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aj-rG-D9s">
+                                <rect key="frame" x="0.0" y="121" width="60" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="dJT-s8-oP9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6x-or-GJs">
+                                <rect key="frame" x="0.0" y="166" width="60" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HlB-Ou-B1T">
+                                <rect key="frame" x="65" y="116" width="290" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.6188247338246855" green="1" blue="0.72277494071594051" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="k8i-cc-g6Q" secondAttribute="trailing" id="450-cQ-cMp"/>
+                            <constraint firstItem="A6x-or-GJs" firstAttribute="trailing" secondItem="2aj-rG-D9s" secondAttribute="trailing" id="Iky-y9-xVb"/>
+                            <constraint firstAttribute="trailing" secondItem="fPb-if-msZ" secondAttribute="trailing" constant="20" id="Mib-xi-QOJ"/>
+                            <constraint firstItem="HlB-Ou-B1T" firstAttribute="top" secondItem="2aj-rG-D9s" secondAttribute="top" constant="-5" id="QgJ-kn-WYu"/>
+                            <constraint firstItem="fPb-if-msZ" firstAttribute="top" secondItem="A6x-or-GJs" secondAttribute="top" constant="-3" id="WKr-Rb-slB"/>
+                            <constraint firstItem="fPb-if-msZ" firstAttribute="leading" secondItem="A6x-or-GJs" secondAttribute="trailing" constant="5" id="aAm-fx-Ulw"/>
+                            <constraint firstItem="HlB-Ou-B1T" firstAttribute="leading" secondItem="2aj-rG-D9s" secondAttribute="trailing" constant="5" id="aBX-fl-PgM"/>
+                            <constraint firstAttribute="trailing" secondItem="HlB-Ou-B1T" secondAttribute="trailing" constant="20" id="g3N-QY-8Ul"/>
+                            <constraint firstItem="2aj-rG-D9s" firstAttribute="top" secondItem="k8i-cc-g6Q" secondAttribute="bottom" constant="50.5" id="hT5-Xn-v9I"/>
+                            <constraint firstItem="k8i-cc-g6Q" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="hrO-N0-rNO"/>
+                            <constraint firstItem="2aj-rG-D9s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jbh-Bl-NM7"/>
+                            <constraint firstItem="A6x-or-GJs" firstAttribute="leading" secondItem="2aj-rG-D9s" secondAttribute="leading" id="lKg-5l-ju7"/>
+                            <constraint firstItem="A6x-or-GJs" firstAttribute="top" secondItem="2aj-rG-D9s" secondAttribute="bottom" constant="24" id="lZE-GI-zAY"/>
+                            <constraint firstItem="k8i-cc-g6Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tCz-6s-kO6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="holderView" destination="HlB-Ou-B1T" id="wzY-er-rtp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-130.40000000000001" y="-95.802098950524751"/>
+        </scene>
+    </scenes>
+</document>

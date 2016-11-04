@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8844AE8B1DCCBDD200070CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844AE8A1DCCBDD200070CC9 /* main.m */; };
+		8844AE8E1DCCBDD200070CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844AE8D1DCCBDD200070CC9 /* AppDelegate.m */; };
+		8844AE911DCCBDD200070CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844AE901DCCBDD200070CC9 /* ViewController.m */; };
+		8844AE941DCCBDD200070CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8844AE921DCCBDD200070CC9 /* Main.storyboard */; };
+		8844AE961DCCBDD200070CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8844AE951DCCBDD200070CC9 /* Assets.xcassets */; };
+		8844AE991DCCBDD200070CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8844AE971DCCBDD200070CC9 /* LaunchScreen.storyboard */; };
+		8844AEC21DCCD55E00070CC9 /* JPullEmailTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844AEC11DCCD55E00070CC9 /* JPullEmailTF.m */; };
+		8844AEC61DCCD62500070CC9 /* JPullTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844AEC41DCCD62500070CC9 /* JPullTableViewCell.m */; };
+		8844AEC71DCCD62500070CC9 /* JPullTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8844AEC51DCCD62500070CC9 /* JPullTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8844AEA01DCCBDD200070CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8844AE7E1DCCBDD200070CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8844AE851DCCBDD200070CC9;
+			remoteInfo = JPullMail;
+		};
+		8844AEAB1DCCBDD200070CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8844AE7E1DCCBDD200070CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8844AE851DCCBDD200070CC9;
+			remoteInfo = JPullMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8844AE861DCCBDD200070CC9 /* JPullMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPullMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8844AE8A1DCCBDD200070CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8844AE8C1DCCBDD200070CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8844AE8D1DCCBDD200070CC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8844AE8F1DCCBDD200070CC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8844AE901DCCBDD200070CC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8844AE931DCCBDD200070CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8844AE951DCCBDD200070CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8844AE981DCCBDD200070CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8844AE9A1DCCBDD200070CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8844AE9F1DCCBDD200070CC9 /* JPullMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPullMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8844AEAA1DCCBDD200070CC9 /* JPullMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPullMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8844AEC01DCCD55E00070CC9 /* JPullEmailTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPullEmailTF.h; sourceTree = "<group>"; };
+		8844AEC11DCCD55E00070CC9 /* JPullEmailTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPullEmailTF.m; sourceTree = "<group>"; };
+		8844AEC31DCCD62500070CC9 /* JPullTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPullTableViewCell.h; sourceTree = "<group>"; };
+		8844AEC41DCCD62500070CC9 /* JPullTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPullTableViewCell.m; sourceTree = "<group>"; };
+		8844AEC51DCCD62500070CC9 /* JPullTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JPullTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8844AE831DCCBDD200070CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8844AE9C1DCCBDD200070CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8844AEA71DCCBDD200070CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8844AE7D1DCCBDD200070CC9 = {
+			isa = PBXGroup;
+			children = (
+				8844AE881DCCBDD200070CC9 /* JPullMail */,
+				8844AE871DCCBDD200070CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8844AE871DCCBDD200070CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8844AE861DCCBDD200070CC9 /* JPullMail.app */,
+				8844AE9F1DCCBDD200070CC9 /* JPullMailTests.xctest */,
+				8844AEAA1DCCBDD200070CC9 /* JPullMailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8844AE881DCCBDD200070CC9 /* JPullMail */ = {
+			isa = PBXGroup;
+			children = (
+				8844AEBC1DCCC26C00070CC9 /* JEmailPullTextfield */,
+				8844AEC81DCCD6C800070CC9 /* Demo */,
+				8844AE891DCCBDD200070CC9 /* Supporting Files */,
+			);
+			path = JPullMail;
+			sourceTree = "<group>";
+		};
+		8844AE891DCCBDD200070CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8844AE951DCCBDD200070CC9 /* Assets.xcassets */,
+				8844AE971DCCBDD200070CC9 /* LaunchScreen.storyboard */,
+				8844AE9A1DCCBDD200070CC9 /* Info.plist */,
+				8844AE8A1DCCBDD200070CC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8844AEBC1DCCC26C00070CC9 /* JEmailPullTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				8844AEC31DCCD62500070CC9 /* JPullTableViewCell.h */,
+				8844AEC41DCCD62500070CC9 /* JPullTableViewCell.m */,
+				8844AEC51DCCD62500070CC9 /* JPullTableViewCell.xib */,
+				8844AEC01DCCD55E00070CC9 /* JPullEmailTF.h */,
+				8844AEC11DCCD55E00070CC9 /* JPullEmailTF.m */,
+			);
+			path = JEmailPullTextfield;
+			sourceTree = "<group>";
+		};
+		8844AEC81DCCD6C800070CC9 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8844AE921DCCBDD200070CC9 /* Main.storyboard */,
+				8844AE8C1DCCBDD200070CC9 /* AppDelegate.h */,
+				8844AE8D1DCCBDD200070CC9 /* AppDelegate.m */,
+				8844AE8F1DCCBDD200070CC9 /* ViewController.h */,
+				8844AE901DCCBDD200070CC9 /* ViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8844AE851DCCBDD200070CC9 /* JPullMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8844AEB31DCCBDD200070CC9 /* Build configuration list for PBXNativeTarget "JPullMail" */;
+			buildPhases = (
+				8844AE821DCCBDD200070CC9 /* Sources */,
+				8844AE831DCCBDD200070CC9 /* Frameworks */,
+				8844AE841DCCBDD200070CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPullMail;
+			productName = JPullMail;
+			productReference = 8844AE861DCCBDD200070CC9 /* JPullMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8844AE9E1DCCBDD200070CC9 /* JPullMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8844AEB61DCCBDD200070CC9 /* Build configuration list for PBXNativeTarget "JPullMailTests" */;
+			buildPhases = (
+				8844AE9B1DCCBDD200070CC9 /* Sources */,
+				8844AE9C1DCCBDD200070CC9 /* Frameworks */,
+				8844AE9D1DCCBDD200070CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8844AEA11DCCBDD200070CC9 /* PBXTargetDependency */,
+			);
+			name = JPullMailTests;
+			productName = JPullMailTests;
+			productReference = 8844AE9F1DCCBDD200070CC9 /* JPullMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8844AEA91DCCBDD200070CC9 /* JPullMailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8844AEB91DCCBDD200070CC9 /* Build configuration list for PBXNativeTarget "JPullMailUITests" */;
+			buildPhases = (
+				8844AEA61DCCBDD200070CC9 /* Sources */,
+				8844AEA71DCCBDD200070CC9 /* Frameworks */,
+				8844AEA81DCCBDD200070CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8844AEAC1DCCBDD200070CC9 /* PBXTargetDependency */,
+			);
+			name = JPullMailUITests;
+			productName = JPullMailUITests;
+			productReference = 8844AEAA1DCCBDD200070CC9 /* JPullMailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8844AE7E1DCCBDD200070CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = 3code;
+				TargetAttributes = {
+					8844AE851DCCBDD200070CC9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BU8SSE558K;
+						ProvisioningStyle = Automatic;
+					};
+					8844AE9E1DCCBDD200070CC9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 79BDF8TB26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8844AE851DCCBDD200070CC9;
+					};
+					8844AEA91DCCBDD200070CC9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 79BDF8TB26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8844AE851DCCBDD200070CC9;
+					};
+				};
+			};
+			buildConfigurationList = 8844AE811DCCBDD200070CC9 /* Build configuration list for PBXProject "JPullMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8844AE7D1DCCBDD200070CC9;
+			productRefGroup = 8844AE871DCCBDD200070CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8844AE851DCCBDD200070CC9 /* JPullMail */,
+				8844AE9E1DCCBDD200070CC9 /* JPullMailTests */,
+				8844AEA91DCCBDD200070CC9 /* JPullMailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8844AE841DCCBDD200070CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8844AE991DCCBDD200070CC9 /* LaunchScreen.storyboard in Resources */,
+				8844AEC71DCCD62500070CC9 /* JPullTableViewCell.xib in Resources */,
+				8844AE961DCCBDD200070CC9 /* Assets.xcassets in Resources */,
+				8844AE941DCCBDD200070CC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8844AE9D1DCCBDD200070CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8844AEA81DCCBDD200070CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8844AE821DCCBDD200070CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8844AE911DCCBDD200070CC9 /* ViewController.m in Sources */,
+				8844AE8E1DCCBDD200070CC9 /* AppDelegate.m in Sources */,
+				8844AEC21DCCD55E00070CC9 /* JPullEmailTF.m in Sources */,
+				8844AE8B1DCCBDD200070CC9 /* main.m in Sources */,
+				8844AEC61DCCD62500070CC9 /* JPullTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8844AE9B1DCCBDD200070CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8844AEA61DCCBDD200070CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8844AEA11DCCBDD200070CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8844AE851DCCBDD200070CC9 /* JPullMail */;
+			targetProxy = 8844AEA01DCCBDD200070CC9 /* PBXContainerItemProxy */;
+		};
+		8844AEAC1DCCBDD200070CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8844AE851DCCBDD200070CC9 /* JPullMail */;
+			targetProxy = 8844AEAB1DCCBDD200070CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8844AE921DCCBDD200070CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8844AE931DCCBDD200070CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8844AE971DCCBDD200070CC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8844AE981DCCBDD200070CC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8844AEB11DCCBDD200070CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8844AEB21DCCBDD200070CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8844AEB41DCCBDD200070CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BU8SSE558K;
+				INFOPLIST_FILE = JPullMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.3code.JPullMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8844AEB51DCCBDD200070CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BU8SSE558K;
+				INFOPLIST_FILE = JPullMail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.3code.JPullMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8844AEB71DCCBDD200070CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 79BDF8TB26;
+				INFOPLIST_FILE = JPullMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.3code.JPullMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPullMail.app/JPullMail";
+			};
+			name = Debug;
+		};
+		8844AEB81DCCBDD200070CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 79BDF8TB26;
+				INFOPLIST_FILE = JPullMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.3code.JPullMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPullMail.app/JPullMail";
+			};
+			name = Release;
+		};
+		8844AEBA1DCCBDD200070CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 79BDF8TB26;
+				INFOPLIST_FILE = JPullMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.3code.JPullMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPullMail;
+			};
+			name = Debug;
+		};
+		8844AEBB1DCCBDD200070CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 79BDF8TB26;
+				INFOPLIST_FILE = JPullMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.3code.JPullMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPullMail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8844AE811DCCBDD200070CC9 /* Build configuration list for PBXProject "JPullMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8844AEB11DCCBDD200070CC9 /* Debug */,
+				8844AEB21DCCBDD200070CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8844AEB31DCCBDD200070CC9 /* Build configuration list for PBXNativeTarget "JPullMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8844AEB41DCCBDD200070CC9 /* Debug */,
+				8844AEB51DCCBDD200070CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8844AEB61DCCBDD200070CC9 /* Build configuration list for PBXNativeTarget "JPullMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8844AEB71DCCBDD200070CC9 /* Debug */,
+				8844AEB81DCCBDD200070CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8844AEB91DCCBDD200070CC9 /* Build configuration list for PBXNativeTarget "JPullMailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8844AEBA1DCCBDD200070CC9 /* Debug */,
+				8844AEBB1DCCBDD200070CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8844AE7E1DCCBDD200070CC9 /* Project object */;
+}
