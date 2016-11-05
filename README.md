@@ -26,5 +26,3 @@ JPullEmailTF *textField = [[JPullEmailTF alloc] initWithFrame:self.holderView.fr
 [http://blog.csdn.net/jiang314/article/details/53042304](http://blog.csdn.net/jiang314/article/details/53042304)
 
 如果这个小demo帮到你的话，希望star一下哦，谢谢！
-
-【以前写的项目时封装的小组件，写了不少类似的，有时间多传点上来和大家共享。】
