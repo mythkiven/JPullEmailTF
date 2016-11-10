@@ -12,14 +12,14 @@ JPullEmailTF *textField = [[JPullEmailTF alloc] initWithFrame:self.holderView.fr
 
 ## 使用自定义样式：
 	//自定义下拉列表的颜色，字体，frame等信息..
-	textField.mailCellHeight = 40;
-    textField.mailFont = [UIFont systemFontOfSize:16];
-    textField.MailFontColor = [UIColor redColor];
-    textField.mailCellColor = [UIColor lightGrayColor];
-    textField.mailBgColor =[UIColor yellowColor];
+	textField.mailCellHeight  = 40;
+    textField.mailFont        = [UIFont  systemFontOfSize:16];
+    textField.MailFontColor   = [UIColor redColor];
+    textField.mailCellColor   = [UIColor lightGrayColor];
+    textField.mailBgColor     = [UIColor yellowColor];
     
     //传入后缀数据源：
-    textField.mailsuffixData = @[@"live.com", @"126.com", @"gmail.com",@"qq.com"];
+    textField.mailsuffixData  = @[@"live.com", @"126.com", @"gmail.com",@"qq.com"];
 
 还有许多相关自定义方法都定义在.h文件里。
 代码详细讲解可以看博客
