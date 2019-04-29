@@ -1,3 +1,6 @@
+
+>  已迁移到组件库  [MKAppKit](https://github.com/mythkiven/MKAppKit)
+
 # JPullEmail
 具有邮箱下拉提示textField，类似新浪微博邮箱登录的效果，输入“@”后自动关联邮箱后缀。自动匹配输入的字符。
 
